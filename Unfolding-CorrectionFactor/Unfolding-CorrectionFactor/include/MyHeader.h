@@ -8,6 +8,7 @@
 #include "TFile.h"
 #include "TTree.h"
 #include "TH1D.h"
+#include "TMath.h"
 
 #define true_NbinsX 100
 
@@ -24,6 +25,6 @@ extern void filling_distributions(
                                     Double_t &tMass
                                   );
 
-extern void normalize_histo(TH1D &histo);
+extern void normalize_histo(TH1D* histo);
 
 #endif /* MyHeader_h */
