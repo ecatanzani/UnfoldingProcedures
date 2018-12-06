@@ -19,13 +19,17 @@ int main(int argc, const char * argv[])
     /// Data Distribution
     
     TH1D dataMass("dataMass","dataMass",100,-10,20);
-    dataMass.Sumw2();
     
     TH1D unfoldedMass("unfoldedMass","unFoldedMass",100,-10,20);
     
     /// Correction Factor
     
     TH1D hcFactor("hcFactor","hcFactor",10,0,2);
+    
+    trueMass.Sumw2();
+    recoMass.Sumw2();
+    dataMass.Sumw2();
+    unfoldedMass.Sumw2();
     
     //////////////////////////////
     
