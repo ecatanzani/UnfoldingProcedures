@@ -62,12 +62,28 @@
 		D9B4AB9121B8F8DC0010B28D /* Unfolding-CorrectionFactor */ = {
 			isa = PBXGroup;
 			children = (
+				D9B4ABA321B927E00010B28D /* include */,
+				D9B4ABA121B927B40010B28D /* source */,
+			);
+			path = "Unfolding-CorrectionFactor";
+			sourceTree = "<group>";
+		};
+		D9B4ABA121B927B40010B28D /* source */ = {
+			isa = PBXGroup;
+			children = (
 				D9B4AB9221B8F8DC0010B28D /* main.cpp */,
-				D9B4AB9921B8F9A70010B28D /* MyHeader.h */,
 				D9B4AB9C21B90D160010B28D /* dFilling.cpp */,
 				D9B4AB9E21B922180010B28D /* stuff.cpp */,
 			);
-			path = "Unfolding-CorrectionFactor";
+			path = source;
+			sourceTree = "<group>";
+		};
+		D9B4ABA321B927E00010B28D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D9B4AB9921B8F9A70010B28D /* MyHeader.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
